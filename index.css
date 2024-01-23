@@ -9,15 +9,16 @@
     padding: 0;
 }
 nav{
-    background-color: aqua;
+    background-color: rgb(95, 122, 201);
 }
 .nav-container{
-    background-color: aquamarine;
-    width: 90vw;
+    /* background-color: aquamarine; */
+    width: 95vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 5vw;
 }
 
 .logo{
@@ -25,7 +26,6 @@ nav{
     display: flex;
     align-items: center;
     gap: 1rem;
-    border: 1px solid greenyellow;
     font-family:var(--font-family) ;
     font-size: 22px;
     font-weight: 700;
@@ -39,7 +39,6 @@ nav{
 .navbox{
     display: flex;
     align-items: center;
-    
 }
 
 .dropdown{
@@ -49,10 +48,17 @@ nav{
     cursor: pointer;
     padding: 10px 10px;
     font-family: Nunito,sans-serif;
+    /* border: 1px solid red; */
+
 }
 
 .dropdown:focus{
     color: var(--color-primary);
+}
+
+.dropbtn{
+    width: 100%;
+    height: 100%;
 }
 
 .dropdown > i{
@@ -68,13 +74,13 @@ nav{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     width: 13vw;
-
 }
 
 /* แสดง dropdown content เมื่อ hover ที่ dropdown button */
 .dropdown:hover .dropdown-content {
     display: block;
-    
+    padding-top: 20px;
+    margin-top: 10px;
 }
 
 .item-content{
@@ -86,6 +92,7 @@ nav{
 .item-content > a{
     text-decoration: none;
     padding: 10px 10px;
+    
 }
 
 .item-content >a:hover{
@@ -96,6 +103,30 @@ nav{
 
 
 .listitem{
-    border: 1px solid rgb(24, 189, 79);
+}
 
+.btn-box{
+}
+
+.btn-log{
+    background-color: #fff;
+    border-radius: 25px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 180px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: var(--color-primary);
+}
+.btn-log:hover{
+    background-color: #fff!important;
+    border-color: var(--color-primary);
+}
+.btn-log > i {
+    font-size: 18px;
+    margin: 5px;
 }
