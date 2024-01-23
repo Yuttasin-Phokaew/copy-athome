@@ -1,0 +1,101 @@
+:root{
+    --color-primary: #ff5a5f;
+    --font-family: Nunito,sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: aqua;
+}
+.nav-container{
+    background-color: aquamarine;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid greenyellow;
+    font-family:var(--font-family) ;
+    font-size: 22px;
+    font-weight: 700;
+}
+.logo>a{
+    text-decoration: none;
+    color: #f9f9f9;
+
+}
+
+.navbox{
+    display: flex;
+    align-items: center;
+    
+}
+
+.dropdown{
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-family: Nunito,sans-serif;
+}
+
+.dropdown:focus{
+    color: var(--color-primary);
+}
+
+.dropdown > i{
+    font-size: 16px;
+}
+
+.dropdown-content {
+    color: var(--color-primary);
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 13vw;
+
+}
+
+/* แสดง dropdown content เมื่อ hover ที่ dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.item-content{
+    display: grid;
+    padding: 0 30px;
+    
+}
+
+.item-content > a{
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.item-content >a:hover{
+    color: var(--color-primary);
+    padding-left: 20px;
+    transition: all .3s ease 0s;
+}
+
+
+.listitem{
+    border: 1px solid rgb(24, 189, 79);
+
+}
