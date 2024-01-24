@@ -352,6 +352,10 @@ select{
     color: var(--color-primary);
 }
 
+.section-sidle{
+    padding: 60px 0;
+}
+
 .container-silde{
     display: flex;
     justify-content: center;
@@ -378,6 +382,14 @@ select{
     margin-bottom: 0;
 }
 
+.silde{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    row-gap: 20px;
+}
 
 /* test slide */
 
@@ -388,7 +400,10 @@ select{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
 }
+.card:hover{
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.11);
 
+}
 .card h2 {
     color: #333333;
 }
@@ -440,8 +455,8 @@ select{
     border: 1px solid #3e4c66;
     border-radius: 3px;
 
-    top: 30px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
     background-color: #3e4c66;
     font-size: 14px;
     font-family: Nunito;
@@ -458,8 +473,8 @@ select{
     border: 1px solid var(--color-primary);
     border-radius: 3px;
 
-    top: 30px;
-    left: 95px;
+    top: 20px;
+    left: 105px;
     background-color: var(--color-primary);
     font-size: 14px;
     font-family: Nunito;
@@ -585,3 +600,24 @@ select{
     line-height: 1.2;
     text-decoration: none;
 }
+/* start swiper */
+
+.mySlides{
+    /* display: grid !important; */
+    display: none;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
