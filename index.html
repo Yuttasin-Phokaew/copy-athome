@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
     <script src="index.js"></script>
@@ -186,7 +187,7 @@
     </banner>
 
 
-    <sidle class="section-sidle">
+    <div class="section1">
         <div class="container-silde">
             <div class="">
                 <div class="text-topcard">
@@ -646,14 +647,183 @@
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
                     <span class="dot" onclick="currentSlide(4)"></span>
-               
-                  </div>
+                </div>
+
+
             </div>
         </div>
-    </sidle>
+    </div>
 
+    <citi class="citi">
+        <div class="citi-container">
+            <div class="text-citi">
+                    <h2>Find Properties in These Cities</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="img-citi">
+                <div class="citi-img">
+                    <div class="citi-box-img">
+                        <img src="/images/citi1.jpg" alt="citi1">
+                        <div class="shadow">
+                            <div class="citi-text">
+                                <h4>Miami</h4>
+                                <p>24 Properties</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="citi-box-img">
+                        <img src="/images/citi2.jpg" alt="citi2">
+                        <div class="shadow">
+
+                        <div class="citi-text">
+                            <h4>Los Angeles</h4>
+                            <p>18 Properties</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="citi-box-img">
+                        <img src="/images/citi3.jpg" alt="citi3">
+                        <div class="shadow">
+
+                        <div class="citi-text">
+                            <h4>New York</h4>
+                            <p>89 Properties</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="citi-box-img">
+                        <img src="/images/citi4.jpg" alt="citi4">
+                        <div class="shadow">
+
+                        <div class="citi-text">
+                            <h4>Florida</h4>
+                            <p>47 Properties</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </citi>
    
-    
+    <div class="section3">
+        <div class="">
+            <div class="">
+                <div class="container-sec3">
+                    <div class="text-sec3">
+                        <h2>Why Choose Us</h2>
+                        <p>We provide full service at every step.</p>
+                    </div>
+                    <div class="card-sec3">
+                        <div id="card1" class="card  icon-sec3" onmouseover="changeColor('card1')" onmouseout="resetColor('card1')">
+                            <i class="fa-solid fa-users"></i>
+                            <h4>Trusted By Thousands</h4>
+                            <p>Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
+                        </div>
+                        <div id="card2" class="card icon-sec3" onmouseover="changeColor('card2')" onmouseout="resetColor('card2')">
+                            <i class="fa-solid fa-house-chimney-window "></i>
+                            <h4>Wide Renge Of Properties</h4>
+                            <p>Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
+                        </div>
+                        <div id="card3" class="card icon-sec3" onmouseover="changeColor('card3')" onmouseout="resetColor('card3')">
+                            <i class="fa-solid fa-calculator "></i>
+                            <h4>Financing Made Easy</h4>
+                            <p>Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="text-sec3">
+                        <h2>Articles & Tips</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="outcard-sec3">
+                        <div class="card-sec3">
+                            <div class="card-outbox-sec3">
+                                <div class="card-inbox-sec3">
+                                    <div class="card-box-sec3">
+                                        <img src="/images/art1.jpg" alt="fp1" />
+                                    </div>
+                                    <div class="card-box-2">
+                                        <div class="text-card">
+                                            <a class="text-card-1" href="#">Business</a>
+                                            <a class="text-card-2" href="#">Skills That You Can Learn In The Real Estate Market</a>
+                                        </div>
+                                        <div class="profile">
+                                            <div class="avatar">
+                                                <img src="/images/ava1.png" alt="Avatar" >
+                                                <a href="#">Ali Tufan</a>
+                                            </div>
+                                            <div>
+                                                <p>7 August 2022</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-sec3">
+                            <div class="card-outbox-sec3">
+                                <div class="card-inbox-sec3">
+                                    <div class="card-box-sec3">
+                                        <img src="/images/art2.jpg" alt="fp1" />
+                                    </div>
+                                    <div class="card-box-2">
+                                        <div class="text-card">
+                                            <a class="text-card-1" href="#">Construction</a>
+                                            <a class="text-card-2" href="#">Bedroom Colors You will Never this Regret</a>
+                                        </div>
+                                        <div class="profile">
+                                            <div class="avatar">
+                                                <img src="/images/ava2.png" alt="Avatar" >
+                                                <a href="#">Ali Tufan</a>
+                                            </div>
+                                            <div>
+                                                <p>7 August 2022</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-sec3">
+                            <div class="card-outbox-sec3">
+                                <div class="card-inbox-sec3">
+                                    <div class="card-box-sec3">
+                                        <img src="/images/art3.jpg" alt="fp1" />
+                                    </div>
+                                    <div class="card-box-2">
+                                        <div class="text-card">
+                                            <a class="text-card-1" href="#">Business</a>
+                                            <a class="text-card-2" href="#">5 Essential Steps for Buying everyone Investment</a>
+                                        </div>
+                                        <div class="profile">
+                                            <div class="avatar">
+                                                <img src="/images/ava3.png" alt="Avatar" >
+                                                <a href="#">Ali Tufan</a>
+                                            </div>
+                                            <div>
+                                                <p>7 August 2022</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
     <main>
 
