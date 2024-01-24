@@ -427,16 +427,6 @@ select{
     border-radius: 8px;
 }
 
-/* endtest */
-
-/* .card-box{
-    background-image: url(/images/fp1.jpg);
-    background: #1d293e;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 10px 9px 0 10px;
-} */
-
 .card-box-1 > img{
     opacity: 0.6;
     object-fit: cover;
@@ -607,6 +597,10 @@ select{
     display: none;
 }
 
+.current{
+    text-align: center;
+    margin: 40px 0;
+}
 .dot {
     cursor: pointer;
     height: 15px;
@@ -620,4 +614,14 @@ select{
 
   .active, .dot:hover {
     background-color: #717171;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
   }

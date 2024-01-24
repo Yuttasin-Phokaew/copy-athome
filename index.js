@@ -24,3 +24,5 @@ if (n > slides.length) {slideIndex = 1}
     dots[slideIndex-1].className += " active";
   }
   showSlides();
+
+  
