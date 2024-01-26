@@ -759,6 +759,10 @@ select{
     line-height: 1.2;
     margin-bottom: 0;
 }
+.icon-sec3{
+    width: 370px;
+    
+}
 
 .icon-sec3 i{
     background-color: #ffe8e9;

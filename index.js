@@ -25,21 +25,19 @@ if (n > slides.length) {slideIndex = 1}
   }
   showSlides();
 
-function changeColor(cardId) {
-    var card = document.getElementById(cardId);
-    var icon = document.querySelector('.icon-sec3 i');
-    card.style.color = '#fff'; // Change the color when hovering
+function changeColor(card) {
+    var icon = card.querySelector('.icon-sec3 i');
+    // var card = document.getElementById(card);
+    // var icon = document.querySelector('.icon-sec3 i');
+    icon.style.color = '#fff'; // Change the color when hovering
     icon.style.backgroundColor = '#ff5a5f';
 }
 
-function resetColor(cardId) {
-    var card = document.getElementById(cardId);
-    var icon = document.querySelector('.icon-sec3 i');
-    card.style.color = '#ff5a5f';
-    icon.style.backgroundColor = '#ffffff';
+function resetColor(card) {
+    var icon = card.querySelector('.icon-sec3 i');
+    // var card = document.getElementById(card);
+    // var icon = document.querySelector('.icon-sec3 i');
+    icon.style.color = '#ff5a5f';
+    icon.style.backgroundColor = '#ffe8e9';
 }
 
-// function ChangeBackgroundColor(){
-//     var icon = document.querySelector('.icon-sec3 i');
-//     icon.style.background-color = '#ff5a5f';
-// }
