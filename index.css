@@ -720,7 +720,6 @@ select{
 
 .section3{
     background-color: #f7f7f7;
-    padding: 60px 0;
 }
 
 .container-sec3{
@@ -743,6 +742,8 @@ select{
 .text-sec3{
     position: relative;
     margin-bottom: 50px;
+    padding-top: 90px;
+
 }
 .text-sec3 > h2{
     color: #484848;
@@ -761,7 +762,6 @@ select{
 }
 .icon-sec3{
     width: 370px;
-    
 }
 
 .icon-sec3 i{
@@ -851,4 +851,46 @@ select{
 
 .card img:hover{
     box-shadow: 0 0 50px #13131c1f;
+}
+
+.container-sec4{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.text-sec4{
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 90px;
+}
+
+.text-sec4 > h2{
+    color: #484848;
+    font-family: Nunito;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 30px;
+}
+.text-sec4 > p{
+    font-size: 16px;
+    font-family: Nunito;
+    color: #777;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.icon-box-sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-inbox-sec4{
+    /* width: 100%; */
+    flex: 1 0 0%;
+    width: 33.33333333%;
 }
