@@ -1014,6 +1014,14 @@ select{
     padding-left: 70px;
 
 }
+.ql a:hover{
+    color: #fff;
+    padding-left: 10px;
+    webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
 
 .text-footer2 h4{
     color: #fff;
@@ -1042,6 +1050,16 @@ select{
 .cu{
     display: grid;
 }
+
+.cu a:hover{
+    color: #fff;
+    padding-left: 10px;
+    webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
 .text-footer3 h4{
     color: #fff;
     font-weight: 700;
@@ -1110,3 +1128,67 @@ select{
     color: var(--color-primary);
 }
 
+
+.footer-middle{
+    background-color: #1d293e;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    
+}
+
+.container-middle{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.list-line{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.list-in-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 14px;
+    font-family: Nunito;
+    color: #8a99b3;
+    line-height: 2.143;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+}
+.list-in-line a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.list-out-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 14px;
+    font-family: Nunito;
+    color: #8a99b3;
+    line-height: 2.143;
+    margin-bottom: 0;
+}
+.list-out-line a{
+    cursor: pointer;
+}
+
+.list-out-line a:hover{
+    color: var(--color-primary);
+}
+.list-in-line li{
+    list-style: none;
+    
+}
+.list-in-line li a{
+    font-size: 14px;
+    font-family: Nunito;
+    color: #8a99b3;
+    line-height: 2.143;
+    cursor: pointer;
+}
