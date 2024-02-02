@@ -969,7 +969,25 @@ select{
 .footer-box{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex: 0  auto;
+}
+
+.text-footer1{
+    flex: 1 0 0%;
+    width: 25%;
+}
+.text-footer2{
+    flex: 1 0 0%;
+    width: 25%;
+}
+.text-footer3{
+    flex: 1 0 0%;
+    width: 25%;
+}
+.text-footer4{
+    flex: 1 0 0%;
+    width: 25%;
 }
 
 .text-footer1 h4{
@@ -988,6 +1006,15 @@ select{
     margin-bottom: 0;
 }
 
+/* .text-footer2{
+    padding-left: 70px;
+} */
+.ql{
+    display: grid;
+    padding-left: 70px;
+
+}
+
 .text-footer2 h4{
     color: #fff;
     font-weight: 700;
@@ -995,6 +1022,11 @@ select{
     font-family: Nunito,sans-serif;
     line-height: 1.2;
     font-size: 18px;
+    padding-left: 70px;
+
+}
+.text-footer2{
+
 }
 .text-footer2 a{
     font-size: 14px;
@@ -1002,8 +1034,14 @@ select{
     color: #8a99b3;
     line-height: 2.143;
     margin-bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
 }
 
+
+.cu{
+    display: grid;
+}
 .text-footer3 h4{
     color: #fff;
     font-weight: 700;
@@ -1018,8 +1056,25 @@ select{
     color: #8a99b3;
     line-height: 2.143;
     margin-bottom: 0;
+    cursor: pointer;
 }
-
+.fu{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 30px;
+}
+.fu i{
+    color: #8a99b3;
+    cursor: pointer;
+    webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.fu i:hover{
+    color: #fff;
+    cursor: pointer;
+}
 .text-footer4 h4{
     color: #fff;
     font-weight: 700;
@@ -1028,10 +1083,30 @@ select{
     line-height: 1.2;
     font-size: 18px;
 }
-.text-footer4 p{
-    font-size: 14px;
-    font-family: Nunito;
-    color: #8a99b3;
-    line-height: 2.143;
-    margin-bottom: 0;
+.text-footer4 input{
+    background-color: #354765;
+    border: 1px solid #354765;
+    border-radius: 25px;
+    color: #fff;
+    height: 50px;
+    padding-left: 30px;
+    width: 195px;
 }
+.text-footer4 input:focus{
+    border-color: transparent;
+    outline: none; 
+}
+.text-footer4 button{
+    background-color: #354765;
+    border: 1px solid #354765;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.text-footer4 button:hover{
+    background-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
